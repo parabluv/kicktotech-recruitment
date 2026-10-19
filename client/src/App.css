@@ -1,0 +1,15 @@
+/* Custom animations and styling overrides */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+}
+
+.glow-effect {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
